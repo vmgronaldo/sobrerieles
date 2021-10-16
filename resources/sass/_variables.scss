@@ -1,0 +1,47 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+.select2-container--default .select2-selection--single .select2-selection__rendered,.select2-search--dropdown .select2-search__field{
+    outline: none;
+    border-color: #d8dbe0;
+    color: #768192;
+}
+.select2-container--default .select2-selection--single{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    border-radius: 4px;
+}
+
+span:focus,button:focus,div:focus,i:focus{
+    outline: none!important;
+}
+
+.login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.c-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
