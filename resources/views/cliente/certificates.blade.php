@@ -100,6 +100,7 @@
         width: 60%;
         text-align: center;
         margin: 0 auto;
+        text-transform: uppercase;
     }
     .firma_david{
         position: relative;
@@ -249,7 +250,7 @@
 <body>
 <div id="pagina">
 
-    <p class="participante">{{$certificate->model->lastname}}, {{$certificate->model->firstname}}</p>
+    <p class="participante">{{$certificate->model->firstname}}</p>
 </div>
 </body>
 

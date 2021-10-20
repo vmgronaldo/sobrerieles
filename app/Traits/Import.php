@@ -38,7 +38,7 @@ trait Import
 
         return  optional(Participants::query()->firstOrCreate([
         'dni'              => $row['dni'],
-    ],[ 'tipo' => $row['tipo'],'firstname' => $row['firstname'], 'lastname' => $row['lastname'], 'email' => $row['email']]))->id;
+    ],[ 'tipo' => $row['tipo'],'firstname' => $row['firstname'], 'email' => $row['email']]))->id;
 
 
 

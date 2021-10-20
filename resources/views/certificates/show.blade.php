@@ -91,6 +91,7 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
+
     }
     .participante{
         position: relative;
@@ -100,6 +101,7 @@
         font-family: 'Roboto',sans-serif;
         width: 60%;
         text-align: center;
+        text-transform: uppercase;
         margin: 0 auto;
     }
     .firma_david{
@@ -249,7 +251,7 @@
 </style>
 <body>
 <div id="pagina">
-    <p class="participante">{{$certificate->model->lastname}}, {{$certificate->model->firstname}}</p>
+    <p class="participante">{{$certificate->model->firstname}}</p>
 </div>
 </body>
 
